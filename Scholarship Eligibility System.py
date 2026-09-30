@@ -9,3 +9,4 @@ if math_marks<0 or math_marks>100 or physics_marks<0 or physics_marks>100 or com
 elif attendance<0 or attendance>100:
         if(math_marks<40 or physics_marks<40 or computer_marks<40):
             print("result : fail") 
+        else:
