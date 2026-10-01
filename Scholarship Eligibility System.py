@@ -22,3 +22,4 @@ elif attendance<0 or attendance>100:
             elif average>=60 :
                 if attendance>=75:
                     print("result : good + scholarship eligible ")
+                else:
