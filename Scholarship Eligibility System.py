@@ -15,3 +15,4 @@ elif attendance<0 or attendance>100:
             average=(total_marks)/3
             print("average marks :" , average) 
             if average>=80 :
+                 if attendance>=75:
