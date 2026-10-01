@@ -23,3 +23,4 @@ elif attendance<0 or attendance>100:
                 if attendance>=75:
                     print("result : good + scholarship eligible ")
                 else:
+                    print("result : good + scholarship not eligible")
