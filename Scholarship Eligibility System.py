@@ -27,3 +27,4 @@ elif attendance<0 or attendance>100:
             elif average>=40:
                 print("result : pass")
             else:
+                print("result : fail")
