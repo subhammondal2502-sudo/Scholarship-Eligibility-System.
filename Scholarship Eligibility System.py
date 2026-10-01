@@ -10,3 +10,4 @@ elif attendance<0 or attendance>100:
         if(math_marks<40 or physics_marks<40 or computer_marks<40):
             print("result : fail") 
         else:
+            total_marks = (math_marks+physics_marks+computer_marks)
