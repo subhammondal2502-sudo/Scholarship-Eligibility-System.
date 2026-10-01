@@ -12,3 +12,4 @@ elif attendance<0 or attendance>100:
         else:
             total_marks = (math_marks+physics_marks+computer_marks)
             print("total marks :" , total_marks)
+            average=(total_marks)/3
