@@ -1,5 +1,6 @@
 # Scholarship Eligibility System.........
 name=(input("enter your name :"))
+percentage = int(input("enter your percentage : "))
 elif attendance<0 or attendance>100:
     print("invalid attendance")
 else:
