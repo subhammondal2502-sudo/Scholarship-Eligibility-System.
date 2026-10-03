@@ -6,8 +6,7 @@ category = input("enter your category (general / obc / sc / st) :")
 if percentage < 60 or income > 300000:
     print("not eligible ")
 else:
-    if(math_marks<40 or physics_marks<40 or computer_marks<40):
-        print("result : fail") 
+    if category== "general":
     else:
         total_marks = (math_marks+physics_marks+computer_marks)
         print("total marks :" , total_marks)
