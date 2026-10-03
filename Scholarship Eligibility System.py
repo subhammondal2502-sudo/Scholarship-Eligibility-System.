@@ -1,9 +1,9 @@
 # Scholarship Eligibility System.........
 name=(input("enter your name :"))
 percentage = int(input("enter your percentage : "))
-income=int(input("enter Family Annual Income : "))
-elif attendance<0 or attendance>100:
-    print("invalid attendance")
+income = int(input("enter Family Annual Income : "))
+if percentage < 60 or income > 300000:
+    print("not eligible ")
 else:
     if(math_marks<40 or physics_marks<40 or computer_marks<40):
         print("result : fail") 
