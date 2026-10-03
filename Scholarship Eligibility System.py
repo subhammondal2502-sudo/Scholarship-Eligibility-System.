@@ -7,6 +7,7 @@ if percentage < 60 or income > 300000:
     print("not eligible ")
 else:
     if category== "general":
+         if percentage>=75:
     else:
         total_marks = (math_marks+physics_marks+computer_marks)
         print("total marks :" , total_marks)
