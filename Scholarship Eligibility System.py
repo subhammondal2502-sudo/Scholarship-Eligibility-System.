@@ -2,6 +2,7 @@
 name=(input("enter your name :"))
 percentage = int(input("enter your percentage : "))
 income = int(input("enter Family Annual Income : "))
+category = input("enter your category (general / obc / sc / st) :")
 if percentage < 60 or income > 300000:
     print("not eligible ")
 else:
