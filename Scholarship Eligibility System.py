@@ -1,10 +1,5 @@
 # Scholarship Eligibility System.........
 name=(input("enter your name :"))
-math =int(input("marks in mathematics :"))
-physics =int(input("marks in physics :"))
-computer =int(input("marks in computer science :"))
-if math <0 or math >100 or physics <0 or physics >100 or computer <0 or computer >100 :
-    print("invalid marks")
 elif attendance<0 or attendance>100:
     print("invalid attendance")
 else:
