@@ -8,6 +8,7 @@ if percentage < 60 or income > 300000:
 else:
     if category== "general":
          if percentage>=75:
+             print("eligible for scholarship")
     else:
         total_marks = (math_marks+physics_marks+computer_marks)
         print("total marks :" , total_marks)
