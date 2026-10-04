@@ -17,7 +17,7 @@ else:
         else:
             print("not eligible for scholarship")
         elif category== "sc":
-            if attendance>=75:
+            if percentage>=65:
                 print("result : good + scholarship eligible ")
             else:
                 print("result : good + scholarship not eligible")
