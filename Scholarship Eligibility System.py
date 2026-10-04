@@ -11,8 +11,6 @@ else:
              print("eligible for scholarship")
          else:
              print("not eligible for scholarship")    
-        average=(total_marks)/3
-        print("average marks :" , average) 
         if average>=80 :
             if attendance>=75:
                  print("result : excellent + scholarship eligible ")
