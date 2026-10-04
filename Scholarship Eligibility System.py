@@ -10,8 +10,7 @@ else:
          if percentage>=75:
              print("eligible for scholarship")
          else:
-        total_marks = (math_marks+physics_marks+computer_marks)
-        print("total marks :" , total_marks)
+             print("not eligible for scholarship")    
         average=(total_marks)/3
         print("average marks :" , average) 
         if average>=80 :
