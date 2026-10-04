@@ -11,7 +11,7 @@ else:
              print("eligible for scholarship")
          else:
              print("not eligible for scholarship")    
-        if average>=80 :
+    elif category== "obc":
             if attendance>=75:
                  print("result : excellent + scholarship eligible ")
              else:
