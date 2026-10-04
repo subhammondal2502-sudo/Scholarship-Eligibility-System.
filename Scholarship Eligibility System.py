@@ -13,7 +13,7 @@ else:
              print("not eligible for scholarship")    
     elif category== "obc":
         if percentage>=70:
-                 print("result : excellent + scholarship eligible ")
+            print("eligible for scholarship")
              else:
                  print("result : excellent + scholarship not eligible")
         elif average>=60 :
