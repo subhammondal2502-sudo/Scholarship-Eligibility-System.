@@ -21,7 +21,7 @@ else:
             print("eligible for scholarship")
         else:
             print("not eligible for scholarship")
-        elif average>=40:
-            print("result : pass")
+       elif category== "st":
+           print("result : pass")
         else:
             print("result : fail")
