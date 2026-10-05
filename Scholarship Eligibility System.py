@@ -23,6 +23,6 @@ else:
             print("not eligible for scholarship")
     elif category== "st":
         if percentage>=60:
-           print("result : pass")
+           print("eligible for scholarship")
         else:
             print("result : fail")
