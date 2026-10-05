@@ -20,7 +20,7 @@ else:
         if percentage>=65:
             print("eligible for scholarship")
         else:
-            print("result : good + scholarship not eligible")
+            print("not eligible for scholarship")
         elif average>=40:
             print("result : pass")
         else:
