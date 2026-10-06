@@ -27,3 +27,5 @@ else:
         else:
             print("not eligible for scholarship")
     else:
+        print("invalid category")
+        
