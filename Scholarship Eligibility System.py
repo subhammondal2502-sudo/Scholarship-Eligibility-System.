@@ -26,3 +26,4 @@ else:
             print("eligible for scholarship")
         else:
             print("not eligible for scholarship")
+    else:
